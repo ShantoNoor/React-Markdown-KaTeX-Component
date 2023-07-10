@@ -5,16 +5,20 @@ import reportWebVitals from './reportWebVitals';
 import Markdown from './components/Markdown/Markdown.component'
 
 
-const content = String.raw`Given a **formula** below
+const content = String.raw`Given a **formula** ~~below~~
 $$
 s = ut + \frac{1}{2}at^{2}
+$$
+
+$$ 
+CH_3-CH_2-OH 
 $$
 Calculate the value of $s$ when $u = 10\frac{m}{s}$ and $a = 2\frac{m}{s^{2}}$ at $t = 1s$
 
 ![hello](https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_og_01.jpg)
 
 
-~~~c
+~~~c++
 void make_set(int v) {
     parent[v] = v;
 }
@@ -36,7 +40,10 @@ void union_sets(int a, int b) {
 ~~~js
 console.log('Hello');
 ~~~
+
 > hello
+
+> console.log('Hello');
 `
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
